@@ -40,40 +40,12 @@ public class Controller extends Movie {
     }
     
     
-//    
-//    public void loginData(ViewLogin vl){
-//        this.user = vl.getUser();
-//        this.pass = vl.getPass();
-//        MM.setUsername(this.user);
-//        MM.setPassword(this.pass);
-//        MM.loginData(this, vl);
-//    }
-//    
+
     public void viewTable(Movie vu){
         md.table(vu);
     }
     
     public void clearTab(){
         md.clearTab();
-    }
-//    
-//    public void updateBar(ViewAnalysis va){
-//        MM.bar(va);
-//        
-//    }
-//    
-//    public void insertBar(ViewAnalysis va){
-//        MM.analyize();
-//        
-//    }
-//    
-//    public void clearTab(){
-//        MM.clearTab();
-//    }
-//    
-//    
-
-    void setMo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
